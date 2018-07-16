@@ -1,0 +1,79 @@
+#container {
+	border-radius: 8px !important;
+}
+
+/* Logo */
+#logo {
+	border-top-left-radius: 8px !important;
+	border-top-right-radius: 8px !important;
+	padding-top: 1px !important;
+	padding-bottom: 1px !important;
+}
+#logo a {background:url('https://www.dropbox.com/s/rdhti4c78jmrf3v/impact_nutrition_logo.png?dl=1') no-repeat top left; background-size: contain; min-height:0; height:45px; margin: 10px !important;}
+* html #logo a {/* IE6 png Support */
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="https://www.dropbox.com/s/rdhti4c78jmrf3v/impact_nutrition_logo.png?dl=1", sizingMethod="crop");
+}
+
+/* Backgrounds */
+html{background-image:none;background-color:#07BE4F}
+#logo{background-image:none;background-color:#252122}
+#container{background:#FFFFFF}
+.wufoo input.text, .wufoo textarea.textarea{background:#FFFFFF url(/images/fieldbg.gif) repeat-x top}
+.wufoo .focused{background:#FFF7C0}
+.wufoo .instruct{background-color:#F5F5F5}
+
+/* Borders */
+#container{border:0 solid #cccccc}
+.wufoo .info{border-bottom:1px dotted #CCCCCC}
+.wufoo .instruct{border:1px solid #e6e6e6}
+
+/* Typography */
+.wufoo .info h2{font-size:160%;font-family:Arial;color:#000000}
+.wufoo .info div{font-size:95%;font-family:Arial;color:#444444}
+.wufoo .section h3{font-size:110%;font-family:Arial;background:#FFFFFF;color:#000000}
+.wufoo .section div{font-size:85%;font-family:Arial;color:#444444}
+.wufoo label.desc, .wufoo legend.desc{font-size:95%;font-family:Arial;color:#444444}
+.wufoo li div, .wufoo li div label, .wufoo li span label{font-family:Arial;color:#444444}
+.wufoo input.text, .wufoo textarea.textarea, .wufoo select.select, .wufoo label.choice{font-size:100%;font-family:Arial;color:#333333}
+.wufoo label.choice{color:#444444}
+.wufoo .instruct{font-size:80%;font-family:Arial;color:#444444
+}
+
+input, textarea, select {
+	border: 1px solid #EEE !important;
+	border-radius: 3px !important;
+	padding: 10px !important;
+	color: #333 !important;
+}
+select {
+	padding: 10px 6px !important;
+}
+
+#saveForm {
+	background-color:#252122 !important;
+	border: none !important;
+	border-top: 2px solid #888 !important;
+	font-weight: bold !important;
+	color: #FFF !important;
+	cursor: pointer !important;
+	padding: 12px 16px !important;
+	width: 100% !important;
+	box-shadow: 0 3px 12px rgba(0,0,0,0.2) !important;
+	border-radius: 5px !important;
+}
+#saveForm:hover {
+	opacity: 0.8 !important;
+}
+
+#header > h2 {
+	font-weight: bold !important;
+}
+
+form.wufoo {
+	margin: 25px 20px 0 20px !important;
+}
+
+form.wufoo > ul > li {
+
+}
